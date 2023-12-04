@@ -6,7 +6,7 @@
 “I Wish that I Could Be Like the Cool Kids”: an Analysis of Underexposed Indie Artist on Spotify
 
 ## Team Members (Name and Student IDs)
-Sydney Hu ()
+Sydney Hu (8560984456)
 
 Stephanie Shaw (2344808735)
 
