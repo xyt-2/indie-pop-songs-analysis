@@ -16,6 +16,13 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
 ### Setting Up the Conda Environment
 
 1. **Clone the Repository**: First, clone this repository to your local machine using:
+   
+2.  **Create the Conda Environment**: Navigate to the cloned repository directory and create a Conda environment using the `environment.yml` file provided:
+
+3. **Activate the Environment**: Before running the project, activate the newly created environment:
+
+Now, you are ready to run the project within this environment.
+
 
 
 ## Instructions on how to install the required libraries
