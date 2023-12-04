@@ -11,6 +11,12 @@ Sydney Hu (8560984456)
 Stephanie Shaw (2344808735)
 
 ## Instructions to create a conda enviornment
+To run this project, you need to have Conda installed. If you don't have Conda, you can install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (a minimal installer for Conda) or [Anaconda](https://www.anaconda.com/products/individual) (which includes Conda and other useful data science tools).
+
+### Setting Up the Conda Environment
+
+1. **Clone the Repository**: First, clone this repository to your local machine using:
+
 
 ## Instructions on how to install the required libraries
 run the following code:
