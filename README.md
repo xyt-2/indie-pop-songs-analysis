@@ -34,21 +34,22 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
   ```
 
 3. **Install Required Packages**:
-  ```
-  pip install -r requirements.txt
-  ```
+
+     ```
+    pip install -r requirements.txt
+     ```
   
 
-This command installs all the packages listed in the `requirements.txt` file.
+   This command installs all the packages listed in the `requirements.txt` file.
 
 
 4. **Open Jupyter Notebook**:
    With the Conda environment activated, launch Jupyter Notebook from the terminal by typing:
-  ```
-  jupyter notebook
-  ```
+   ```
+   jupyter notebook
+   ```
 
-This will open Jupyter in your default web browser. Now, you are ready to run the project within this environment.
+   This will open Jupyter in your default web browser. Now, you are ready to run the project within this environment.
 
 
 ## Instructions on how to collect data
