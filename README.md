@@ -47,7 +47,7 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
 
 3. **Install Required Packages**:
      ```
-     pip install -r requirements.txt
+     pip install -r final-project/requirements.txt
      ```
   
 
