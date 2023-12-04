@@ -98,4 +98,4 @@ consider using `group1_processed.csv` and `group2_processed.csv` in the unlikely
 
 **to create visualization**:
 
-run each cell in the `Visualization` section.
+run each cell in the `Visualization` section. Please run the section after running `Analysis` as the visualizations are based on the analyses.
