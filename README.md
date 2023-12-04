@@ -35,14 +35,14 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
    
 2. **Create and Activate a Virtual Environment**:
 
-  ```
-   conda create -n my_env python=3.10 -y
-  ```
-   this command creates a conda virtual environment called `my_env` and the Python version is `3.10`
-  
-  ```
-   conda activate my_env
-  ```
+    ```
+    conda create -n my_env python=3.10 -y
+    ```
+    this command creates a conda virtual environment called `my_env` and the Python version is `3.10`
+   
+    ```
+    conda activate my_env
+    ```
 
 
 3. **Install Required Packages**:
@@ -72,6 +72,7 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
    This will open Jupyter in your default web browser. Please ensure that the Conda environment is selected in the Jupyter Notebook. Inside your Jupyter Notebook, go to Kernel -> Change Kernel and select the kernel associated with your Conda environment
 
    Now, you are ready to run the project within this environment.
+
 
 ## Instructions on how to collect data
 to get the most up-to-date song data, run `get_data.ipynb`  
