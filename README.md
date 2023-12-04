@@ -62,7 +62,7 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
    You will have to register your conda environment with Jupyter before it can be used in the jupyter notebooks.    run the following command to register this conda environment with jupyter:
    ```
    conda install ipykernel
-   python -m ipykernel install --name my_env --display-name "my_env"
+   python -m ipykernel install --user --name my_env --display-name "my_env"
    ```
    With the Conda environment activated, launch Jupyter Notebook from the terminal by typing:
    ```
