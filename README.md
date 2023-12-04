@@ -41,20 +41,15 @@ This command installs all the packages listed in the `requirements.txt` file.
 Now, you are ready to run the project within this environment.
 
 
-
-## Instructions on how to install the required libraries
-run the following code:
-pip install -r requirements.txt
-
 ## Instructions on how to collect data
-run get_data.ipynb to get the most up-to-date song data. 
-* note: it might be different from the raw data stored in 'group2_raw.csv'. 
+to get the most up-to-date song data, run get_data.ipynb  
+* note: it might be different from the raw data stored in `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv`. 
 
 ## Instructions on how to clean the data
-to get consistent results as the report, please use files 'group1_raw.csv' 'group2_raw.csv', and 'group3_raw.csv'.
-run clean_data.ipynb
+to get consistent results as the report, please upload files `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv` to Jupyter Notebook.
+run `clean_data.ipynb`
 
 
 ## Instrucions on how to run analysis code and create visualizations
 to get consistent results as the report, please use files 'group1_processed.csv' and 'group2_processed.csv'.
-run run_analysis_visualization.ipynb
+run `run_analysis_visualization.ipynb`
