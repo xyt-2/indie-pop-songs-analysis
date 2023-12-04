@@ -32,36 +32,56 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
   python -m virtualenv venv
   source venv/bin/activate
   ```
+   
+2. **Create and Activate a Virtual Environment**:
+
+  ```
+   conda create -n my_env python=3.10 -y
+  ```
+   this command creates a conda virtual environment called `my_env` and the Python version is `3.10`
+  
+  ```
+   conda activate my_env
+  ```
+
 
 3. **Install Required Packages**:
-
      ```
-    pip install -r requirements.txt
+     pip install -r requirements.txt
      ```
   
 
    This command installs all the packages listed in the `requirements.txt` file.
 
 
-4. **Open Jupyter Notebook**:
+5. **Open Jupyter Notebook**:
+   If Jupyter Notebook is not installed in the selected Conda environment, you can install it using:
+     ```
+     conda install -n my_environment jupyter
+     ```
+   You will have to register your conda environment with Jupyter before it can be used in the jupyter notebooks.    run the following command to register this conda environment with jupyter:
+   ```
+   conda install ipykernel
+   python -m ipykernel install --name my_env --display-name "my_env"
+   ```
    With the Conda environment activated, launch Jupyter Notebook from the terminal by typing:
    ```
    jupyter notebook
    ```
 
-   This will open Jupyter in your default web browser. Please ensure that the Conda environment is selected in Jupyter Notebook:
-   Inside your Jupyter Notebook, go to Kernel -> Change Kernel and select the kernel associated with your Conda environment
+   This will open Jupyter in your default web browser. Please ensure that the Conda environment is selected in the Jupyter Notebook. Inside your Jupyter Notebook, go to Kernel -> Change Kernel and select the kernel associated with your Conda environment
 
    Now, you are ready to run the project within this environment.
 
 ## Instructions on how to collect data
 to get the most up-to-date song data, run `get_data.ipynb`  
 * note: it might be different from the raw data stored in `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv`.
-otherwise, please proceed to the following step.
+
+Otherwise, please proceed to the following step.
 
 ## Instructions on how to clean the data
 to get consistent results as the report, please upload files `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv` to Jupyter Notebook and run `clean_data.ipynb`.
 
-## Instrucions on how to run analysis code and create visualizations
-to get consistent results as the report, please use files 'group1_processed.csv' and 'group2_processed.csv' and
+## Instructions on how to run analysis code and create visualizations
+to get consistent results as the report, please use files `group1_processed.csv` and `group2_processed.csv` and
 run `run_analysis_visualization.ipynb`.
