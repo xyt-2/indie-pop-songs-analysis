@@ -16,7 +16,7 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
 ### Setting Up the Conda Environment
 
 1. **Clone the Repository**: First, clone this repository to your local machine using:
-   git clone https://github.com/USC-DSCI-510/final-project.git
+   'git clone https://github.com/USC-DSCI-510/final-project.git'
    
 3.  **Create the Conda Environment**: Navigate to the cloned repository directory and create a Conda environment using the `environment.yml` file provided:
    
