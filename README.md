@@ -14,12 +14,27 @@ Stephanie Shaw (2344808735)
 To run this project, you need to have Conda installed. If you don't have Conda, you can install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) (a minimal installer for Conda) or [Anaconda](https://www.anaconda.com/products/individual) (which includes Conda and other useful data science tools).
 
 ### Setting Up the Conda Environment
-
 1. **Clone the Repository**: First, clone this repository to your local machine using:
    `git clone https://github.com/USC-DSCI-510/final-project.git`
    
-3.   **Create the Conda Environment**: Run the following command to create a Conda environment according to the `environment.yml` file included in the repository. This will install all the required dependencies.
-   `conda activate environment-name`
+2. **Create and Activate a Virtual Environment**:
+
+- For Windows:
+
+  ```
+  python -m virtualenv venv
+  .\venv\Scripts\activate
+  ```
+
+- For macOS and Linux:
+
+  ```
+  python -m virtualenv venv
+  source venv/bin/activate
+  ```
+
+3. **Install Required Packages**:
+   `pip install -r requirements.txt`
 
    
    
