@@ -36,9 +36,7 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
 3. **Install Required Packages**:
    `pip install -r requirements.txt`
 
-   
-   
-5. **Activate the Environment**: Before running the project, activate the newly created environment:
+This command installs all the packages listed in the `requirements.txt` file.
 
 Now, you are ready to run the project within this environment.
 
