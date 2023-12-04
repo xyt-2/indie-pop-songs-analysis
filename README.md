@@ -3,7 +3,7 @@
 # DSCI 510 Final Project
 
 ## Name of the Project
-“I Wish that I Could Be Like the Cool Kids”: an Analysis of Underexposed Indie Artist on Spotify
+“I Wish that I Could Be Like the Cool Kids”: an Analysis for Underexposed Indie Artist on Spotify
 
 ## Team Members (Name and Student IDs)
 Sydney Hu (8560984456)
