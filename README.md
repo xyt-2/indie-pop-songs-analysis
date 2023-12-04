@@ -82,20 +82,20 @@ Due to the dynamic changes in the music industry, we chose to scrape data from d
 For the following sections (Cleaning, Analysis, Visualization), please consider using files provided in the data folder in the case of inconsistent results.
 
 ## Instructions on how to clean the data, run analysis code, and create visualizations
-to get consistent results as the report, please use files `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv` to Jupyter Notebook and run `clean_analyze_visualize.ipynb`.
+to get consistent results as the report, please use files `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv` in the `data` folder and run `clean_analyze_visualize.ipynb`.
 
 Each section is clearly labeled in the file.
 
 **to clean data**:
 
-run each cell in the clean data section.
+run each cell in the `Cleaning` section.
 
 **to run analysis code**:
 
-run each cell in the analysis section.
+run each cell in the `Analysis` section.
 
 consider using `group1_processed.csv` and `group2_processed.csv` in the unlikely event that results show inconsistency as the report
 
 **to create visualization**:
 
-run each cell in the visualization section.
+run each cell in the `Visualization` section.
