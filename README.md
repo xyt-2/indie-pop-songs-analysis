@@ -38,11 +38,16 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
 
 This command installs all the packages listed in the `requirements.txt` file.
 
-Now, you are ready to run the project within this environment.
+
+4. **Open Jupyter Notebook**:
+   With the Conda environment activated, launch Jupyter Notebook from the terminal by typing:
+   `jupyter notebook`
+
+This will open Jupyter in your default web browser. Now, you are ready to run the project within this environment.
 
 
 ## Instructions on how to collect data
-to get the most up-to-date song data, run get_data.ipynb  
+to get the most up-to-date song data, run `get_data.ipynb`  
 * note: it might be different from the raw data stored in `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv`. 
 
 ## Instructions on how to clean the data
