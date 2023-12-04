@@ -80,9 +80,21 @@ to get the most up-to-date song data, run `get_data.ipynb`
 
 Otherwise, please proceed to the following step.
 
-## Instructions on how to clean the data
-to get consistent results as the report, please upload files `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv` to Jupyter Notebook and run `clean_data.ipynb`.
+## Instructions on how to clean the data, run analysis code, and create visualizations
+to get consistent results as the report, please upload files `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv` to Jupyter Notebook and run `clean_analysis_visualize.ipynb`.
 
-## Instructions on how to run analysis code and create visualizations
-to get consistent results as the report, please use files `group1_processed.csv` and `group2_processed.csv` and
-run `run_analysis_visualization.ipynb`.
+Each section is clearly labeled in the file.
+
+**to clean data**:
+
+run each cell in the clean data section.
+
+**to run analysis code**:
+
+run each cell in the analysis section.
+
+consider using `group1_processed.csv` and `group2_processed.csv` in the unlikely event that results show inconsistency as the report
+
+**to create visualization**:
+
+run each cell in the visualization section.
