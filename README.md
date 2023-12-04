@@ -49,18 +49,19 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
    jupyter notebook
    ```
 
-   This will open Jupyter in your default web browser. Now, you are ready to run the project within this environment.
+   This will open Jupyter in your default web browser. Please ensure that the Conda environment is selected in Jupyter Notebook:
+   Inside your Jupyter Notebook, go to Kernel -> Change Kernel and select the kernel associated with your Conda environment
 
+   Now, you are ready to run the project within this environment.
 
 ## Instructions on how to collect data
 to get the most up-to-date song data, run `get_data.ipynb`  
-* note: it might be different from the raw data stored in `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv`. 
+* note: it might be different from the raw data stored in `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv`.
+otherwise, please proceed to the following step.
 
 ## Instructions on how to clean the data
-to get consistent results as the report, please upload files `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv` to Jupyter Notebook.
-run `clean_data.ipynb`
-
+to get consistent results as the report, please upload files `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv` to Jupyter Notebook and run `clean_data.ipynb`.
 
 ## Instrucions on how to run analysis code and create visualizations
-to get consistent results as the report, please use files 'group1_processed.csv' and 'group2_processed.csv'.
-run `run_analysis_visualization.ipynb`
+to get consistent results as the report, please use files 'group1_processed.csv' and 'group2_processed.csv' and
+run `run_analysis_visualization.ipynb`.
