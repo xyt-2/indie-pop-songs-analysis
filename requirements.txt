@@ -4,3 +4,5 @@ Pandas
 NumPy
 Matplotlib
 Seaborn
+scikit-learn
+statsmodels
