@@ -67,7 +67,7 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
 ## Instructions on how to collect data
 Due to the dynamic changes in the music industry, we chose to scrape data from dynamically generated pages. To get the most up-to-date collection of songs, run `get_data.ipynb`. 
 
-* note: it might be different from the raw data stored in `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv`.
+* note: it might be different from the raw data stored in `group1_raw.csv` `group2_raw.csv`, and `group3_raw.csv` since our sources are dynamic.
 
 For the following sections (Cleaning, Analysis, Visualization), please consider using files provided in the data folder in the case of inconsistent results.
 
