@@ -6,3 +6,4 @@ Matplotlib
 Seaborn
 scikit-learn
 statsmodels
+notebook
