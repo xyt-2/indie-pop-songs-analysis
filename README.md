@@ -42,7 +42,7 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
 5. **Open Jupyter Notebook**:
    If Jupyter Notebook is not installed in the selected Conda environment, you can install it using:
      ```
-     conda install -n my_environment jupyter
+     conda install -n my_env jupyter
      ```
    You will have to register your conda environment with Jupyter before it can be used in the jupyter notebooks.    run the following command to register this conda environment with jupyter:
    ```
