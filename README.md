@@ -21,7 +21,7 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
 2. **Create and Activate a Virtual Environment**:
 
     ```
-    conda create -n my_env python=3.10 -y
+    conda create -n my_env python=3.10.12 -y
     ```
     this command creates a conda virtual environment called `my_env` and the Python version is `3.10`
    
