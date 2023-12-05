@@ -15,10 +15,12 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
 
 ### Setting Up the Conda Environment
 1. **Clone the Repository**: First, clone this repository to your local machine using:
-   `git clone https://github.com/USC-DSCI-510/final-project.git`
+   ```
+   git clone https://github.com/USC-DSCI-510/final-project.git
+   ```
    
    
-2. **Create and Activate a Virtual Environment**:
+3. **Create and Activate a Virtual Environment**:
 
     ```
     conda create -n my_env python=3.10.12 -y
@@ -30,7 +32,7 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
     ```
 
 
-3. **Install Required Packages**:
+4. **Install Required Packages**:
      ```
      pip install -r final-project/requirements.txt
      ```
