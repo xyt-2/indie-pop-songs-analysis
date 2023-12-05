@@ -54,7 +54,7 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
    jupyter notebook
    ```
 
-   This will open Jupyter in your default web browser. Please ensure that the Conda environment is selected in the Jupyter Notebook. Inside your Jupyter Notebook, go to Kernel -> Change Kernel and select the kernel associated with your Conda environment
+   This will open Jupyter in your default web browser. Navigate to the desired notebook in the `src` folder. Then please ensure that the correct Conda environment is selected in the Jupyter Notebook. Inside your Jupyter Notebook, go to Kernel -> Change Kernel and select the kernel associated with your Conda environment
 
    Now, you are ready to run the project within this environment.
 
