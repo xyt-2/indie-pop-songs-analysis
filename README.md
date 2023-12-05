@@ -17,21 +17,6 @@ To run this project, you need to have Conda installed. If you don't have Conda, 
 1. **Clone the Repository**: First, clone this repository to your local machine using:
    `git clone https://github.com/USC-DSCI-510/final-project.git`
    
-2. **Create and Activate a Virtual Environment**:
-
-- For Windows:
-
-  ```
-  python -m virtualenv venv
-  .\venv\Scripts\activate
-  ```
-
-- For macOS and Linux:
-
-  ```
-  python -m virtualenv venv
-  source venv/bin/activate
-  ```
    
 2. **Create and Activate a Virtual Environment**:
 
